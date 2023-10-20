@@ -54,7 +54,7 @@ const AddTodo = () => {
         await addTodo(todo);
         // once we get past the previous, the firestore doc is made (or an error)
         setIsLoading(false);
-        setTitle("");
+        setTitle(""); 
         setDescription("");
         setStatus("pending");
         // show a floaty with status update
